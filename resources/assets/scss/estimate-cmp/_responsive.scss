@@ -1,0 +1,213 @@
+// // /*Extra large devices (large desktops, 1200px and up)*/
+// // @media (max-width: 1750px) {
+// //     html{
+// //         font-size: 50%;
+// //     }
+// // }
+// // @media (max-width: 1450px) {
+// //     html{
+// //         font-size: 45%;
+// //     }
+// //     .form_C .info .btns .btn{
+// //         font-size: 2rem;
+// //     }
+// // }
+
+// // @media (max-width: 1300px) {
+// //     html{
+// //         font-size: 40%;
+// //     }
+// // }
+
+// // @media (max-width: 1199px) {
+// //     html{
+// //         font-size: 34%;
+// //     }
+// // }
+
+// @media (max-width: 991px) {
+//     // html{
+//     //     font-size: 45%;
+//     // }
+//     .A_body main,
+//     .B_body main,
+//     .C_body main,
+//     .D_body main,
+//     .E_body main{
+//         display: block;
+//     }
+//     .A_body .form_area,
+//     .B_body .form_area,
+//     .C_body .form_area,
+//     .D_body .form_area,
+//     .E_body .form_area{
+//         width: 70%;
+//         margin: auto;
+//     }
+//     .A_body .right_side,
+//     .B_body .right_side,
+//     .C_body .right_side,
+//     .D_body .right_side,
+//     .E_body .right_side{
+//         text-align: center;
+//         margin-top: 10rem;
+//     }
+//     .right_side .rating{
+//         justify-content: center;
+//         text-align: left;
+//     }
+
+//     .form_A .col_1, .form_A .col_3{
+//         max-width: 70%;
+//         margin: auto;
+//     }
+//     .form_A .col_1{
+//         margin-bottom: 6rem;
+//     }
+//     .form_A .col_2{
+//         max-width: 80%;
+//         margin: auto;
+//         margin-bottom: 6rem;
+//     }
+//     .form_B .col_1,
+//     .form_B .col_2,
+//     .form_B .col_3{
+//         max-width: 100%;
+//         margin-bottom: 6rem;
+//     }
+//     .form_C .col_1,
+//     .form_C .col_2,
+//     .form_C .col_3{
+//         max-width: 70%;
+//         margin: auto;
+//         margin-bottom: 6rem;
+//     }
+//     .form_D .col_1{
+//         width: 70%;
+//         margin: auto;
+//         margin-bottom: 6rem;
+//     }
+// }
+
+// /*Medium devices (tablets, 767px and down)*/
+// @media (max-width: 767px) {
+//     .A_body .form_area,
+//     .B_body .form_area,
+//     .C_body .form_area,
+//     .D_body .form_area,
+//     .E_body .form_area{
+//         width: auto;
+//     }
+//     form .address, form .entrance{
+//         display: block;
+//     }
+//     form .address .form_group, form .entrance .form_group{
+//         width: auto;
+//     }
+//     .D_body .names{
+//         display: block;
+//     }
+//     .D_body .names .form_group{
+//         width: auto;
+//     }
+
+
+//     .form_A .col_1,.form_A .col_2,.form_A .col_3{
+//         max-width: 100%;
+//     }
+//     .form_A .title_box h2, .form_B .title_box h2, .form_C .title_box h2, .form_D .title_box h2{
+//         font-size: 5rem;
+//     }
+//     .form_A .title_box p, .form_B .title_box p, .form_C .title_box p, .form_D .title_box p{
+//         font-size: 2.8rem;
+//     }
+//     .form_A .progress, .form_B .progress, .form_C .progress, .form_D .progress{
+//         width: 80%;
+//     }
+//     .form_A .progress_text, .form_B .progress_text, .form_C .progress_text, .form_D .progress_text{
+//         width: 70%;
+//     }
+//     .form_A .progress_text p, .form_B .progress_text p, .form_C .progress_text p, .form_D .progress_text p{
+//         font-size: 2rem;
+//     }
+//     .form_C .col_1,
+//     .form_C .col_3{
+//         max-width: 100%;
+//     }
+//     .form_C .col_2{
+//         max-width: 96%;
+//     }
+// }
+
+// /*Small devices (landscape phones, 575px and down)*/
+// @media (max-width: 575px) {
+//     // html{
+//     //     font-size: 45%;
+//     // }
+//     // .container{
+//     //     padding: 0 2.2%;
+//     // }
+//     .A_body .right_side h3,
+//     .B_body .right_side h3,
+//     .C_body .right_side h3,
+//     .D_body .right_side h3,
+//     .E_body .right_side h3{
+//         font-size: 4.2rem;
+//     }
+//     .A_body .right_side h2,
+//     .B_body .right_side h2,
+//     .C_body .right_side h2,
+//     .D_body .right_side h2,
+//     .E_body .right_side h2{
+//         font-size: 5.2rem;
+//     }
+//     .form_A .progress_text p, .form_B .progress_text p, .form_C .progress_text p, .form_D .progress_text p{
+//         font-size: 1.6rem;
+//     }
+//     .form_A .dateAndSelect, .form_A .zip_code{
+//         display: block;
+//     }
+//     .form_A .dateAndSelect .form_group.date, .form_A .zip_code .form_group.form_zip {
+//         margin-right: 0;
+//     }
+//     .form_A form .btns{
+//         display: block;
+//     }
+//     .form_A form .btns .btn{
+//         width: 100%;
+//     }
+//     .form_A form .btns .btn.calculate{
+//         margin-bottom: 1.7rem;
+//     }
+//     .form_B .moving {
+//         display: block;
+//     }
+//     .form_B .moving .right_side {
+//         margin-left: 0;
+//         margin-top: 2rem;
+//     }
+//     .form_B .moveToFrom .btn.back{
+//         margin-top: 1.3rem;
+//     }
+//     .form_C .info .left_side p,
+//     .form_C .info .right_side p{
+//         font-size: 2rem;
+//     }
+//     .form_C .info .right_side p img{
+//         max-width: 1.7rem;
+//     }
+//     .form_C .info .btns{
+//         display: block;
+//     }
+//     .form_C .info .btns .btn{
+//         width: 100%;
+//     }
+//     .form_C .info .btns .btn.Go_to_Confirmation{
+//         margin-top: 2.7rem;
+//     }
+//     .form_D .col_1{
+//         width: 94%;
+//     }
+// }
+
+

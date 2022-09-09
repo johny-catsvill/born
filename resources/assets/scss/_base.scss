@@ -1,0 +1,51 @@
+/*======================
+   02. Basic css
+// ========================*/
+// html,
+// body,
+// div,
+// span,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p,
+// a,
+// strong,
+// i,
+// ol,
+// ul,
+// li,
+// form,
+// label,
+// footer,
+// header,
+// menu,
+// nav,
+// section {
+//     margin: 0;
+//     padding: 0;
+// }
+
+ol,
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+html{
+    font-size: 62.2%;
+}
+

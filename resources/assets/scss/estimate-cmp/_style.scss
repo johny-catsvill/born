@@ -1,0 +1,1350 @@
+.layout{
+    background: url('/assets/images/estimate-cmp/bg.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: -1;
+    }
+    &__inner {
+        display: flex;
+        align-items: flex-end;
+        padding: 8.98% 7.2%;
+    }
+}
+
+.layout-full {
+    &__inner {
+        padding:0;
+        // overflow: hidden;
+    }
+}
+
+
+/*.A_body .form_area,.B_body .form_area,.C_body .form_area,.D_body .form_area,.E_body .form_area{
+    width: 400px;
+    background: #fff;
+    padding: 2.8rem 1.8rem;
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+}*/
+
+/* A_body CSS --------------*/
+
+/*.A_body .title_box{
+    padding-bottom: 2.3rem;
+}
+
+.A_body .title{
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.A_body .number{
+    text-align: center;
+}
+
+.A_body .number a{
+    color: #FF515E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-decoration: none;
+}*/
+
+form label{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgba(37, 40, 73, 0.5);
+    line-height: 1.38;
+}
+
+form input,
+form select{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #252849;
+    background: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.18;
+}
+
+form input::placeholder{
+    color: #252849!important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form .form_group{
+    border: .1rem solid rgba(167, 168, 181, 0.6);
+    border-radius: 1.8rem;
+    padding: 2rem 2.7rem;
+    margin-bottom: 1.7rem;
+}
+
+/* address inputs */
+
+form .address,
+form .entrance{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form .address .form_group,
+form .entrance .form_group{
+    width: 39%;
+}
+
+form .address .form_group input{
+    border-bottom: .2rem solid #252849;
+}
+
+/* search input */
+
+.search_input{
+    display: flex;
+}
+
+.search_input img {
+    flex-shrink: 0;
+    margin-top: .5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/* checkmark */
+
+.checkbox-field {
+    display: inline-block;
+    position: relative;
+    margin-top: .8rem;
+    padding-top: .8rem;
+    padding-left: 4.2rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #252849;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.18;
+}
+
+.checkbox-field input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: .3rem;
+    left: 0;
+    width: 2.1rem;
+    height: 2.1rem;
+    outline: .1rem solid #CACAD2;
+    border: .6rem solid #fff;
+    border-radius: 1rem;
+    background-color: #ADB0C2;
+}
+
+.checkbox-field input:checked ~ .checkmark {
+    outline-color: #FF515E;
+    background-color: #FF515E;
+}
+
+.checkmark:after {
+    content: '';
+    background-image: url('/assets/images/estimate-cmp/check.png');
+    background-size: 1.2rem 1.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    left: .5rem;
+    top: .4rem;
+    display: none;
+}
+
+.checkbox-field input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* form button  */
+
+/*form .btn{
+    width: 100%;
+    padding: 2.1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid transparent;
+    outline: none;
+    background: #FF515E;
+    color: #fff;
+    border-radius: .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}*/
+
+/*form .btn img{
+    margin-right: 1.8rem;
+}*/
+
+/* progress */
+
+
+
+/* right_side CSS*/
+
+.A_body .right_side,
+.B_body .right_side,
+.C_body .right_side,
+.D_body .right_side,
+.E_body .right_side{
+    padding-left: 4.7%;
+    padding-bottom: 7.42%;
+}
+
+.A_body .right_side h3,
+.B_body .right_side h3,
+.C_body .right_side h3,
+.D_body .right_side h3,
+.E_body .right_side h3{
+    color: #FFFFFF;
+    font-size: 5.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.A_body .right_side h2,
+.B_body .right_side h2,
+.C_body .right_side h2,
+.D_body .right_side h2,
+.E_body .right_side h2{
+    color: #FFFFFF;
+    font-size: 6.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 2.7rem;
+}
+
+.A_body .right_side .rating,
+.B_body .right_side .rating,
+.C_body .right_side .rating,
+.D_body .right_side .rating,
+.E_body .right_side .rating{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3;
+}
+
+.A_body .right_side .rating img,
+.B_body .right_side .rating img,
+.C_body .right_side .rating img,
+.D_body .right_side .rating img,
+.E_body .right_side .rating img{
+    margin-right: 1.4rem;
+}
+
+.A_body .right_side .rating span,
+.B_body .right_side .rating span,
+.C_body .right_side .rating span,
+.D_body .right_side .rating span,
+.E_body .right_side .rating span{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FF515E;
+}
+
+/* B_body CSS --------------*/
+
+.B_body .title_box{
+    text-align: center;
+    padding-bottom: 2.3rem;
+}
+
+.B_body .title_box p{
+    color: #000000;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.45;
+}
+
+.B_body .title_box p span{
+    color: #FF515E;
+}
+
+/*.B_body form .btn.change_move_date{
+    border-color: #FF515E;
+    color: #FF515E;
+    background: transparent;
+    margin-top: 1.8rem;
+}*/
+
+.B_body .progress{
+    margin-top: 6.2rem;
+}
+
+/*C_body CSS --------------*/
+
+.C_body .title_box{
+    text-align: center;
+}
+
+.C_body .title_box img{
+    width: 65.6%;
+    margin-top: 5.6rem;
+    margin-bottom: 6.6rem;
+}
+
+.C_body form .btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.C_body form .btns .btn{
+    width: 48%;
+}
+
+.C_body form .btns .btn.back{
+    border-color: #FF515E;
+    background: transparent;
+    color: #FF515E;
+}
+
+.C_body .progress{
+    margin-top: 6.3rem;
+}
+
+/* D_body CSS --------------*/
+
+.D_body .title_box{
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.D_body .title_box p,.formD .title_box h3{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.D_body .title_box h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.D_body .names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.D_body .names .form_group{
+    width: 39%;
+}
+
+/*.D_body .btn.change_move_size{
+    background: transparent;
+    border-color: #FF515E;
+    color: #FF515E;
+    margin-top: 1.8rem;
+}*/
+
+.D_body .progress{
+    margin-top: 6.2rem;
+}
+
+/* E_body CSS --------------*/
+
+.E_body .form_area{
+    text-align: center;
+}
+
+.E_body .form_area img{
+    width: 20.1%;
+    margin-top: 6.1rem;
+    margin-bottom: 2.8rem;
+}
+
+/*.E_body .form_area .title1{
+    color: #000000;
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    padding-bottom: 2.1rem;
+}*/
+
+.E_body .form_area p{
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 3.4rem;
+}
+
+.E_body .form_area .number{
+    display: inline-block;
+    text-decoration: none;
+    color: #FF515E;
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 8.4rem;
+}
+
+/*.E_body .form_area .title2{
+    color: #000000;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    padding-bottom: 4.2rem;
+}*/
+
+.E_body .form_area .btn{
+    width: 100%;
+    padding: 2.1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid transparent;
+    outline: none;
+    background: #FF515E;
+    color: #fff;
+    border-radius: .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: .3rem;
+}
+
+/* form A CSS --------------*/
+
+
+
+
+.form_A main,
+.form_B main,
+.form_C main,
+.form_D main{
+    padding: 11.1% 0;
+    overflow: hidden;
+}
+
+.form_A .title_box,
+.form_B .title_box,
+.form_C .title_box,
+.form_D .title_box{
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.form_A .title_box h2,
+.form_B .title_box h2,
+.form_C .title_box h2,
+.form_D .title_box h2{
+    color: #000000;
+    font-size: 6.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.19;
+    padding-bottom: 1.9rem;
+}
+
+.form_A .title_box p,
+.form_B .title_box p,
+.form_C .title_box p,
+.form_D .title_box p{
+    color: #000000;
+    font-size: 3.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.94;
+}
+
+.form_A .title_box p span,
+.form_B .title_box p span,
+.form_C .title_box p span,
+.form_D .title_box p span{
+    color: #FF515E;
+}
+
+.form_A .progress,
+.form_B .progress,
+.form_C .progress,
+.form_D .progress{
+    width: 54.5%;
+    margin: 5.5rem auto 2.1rem auto;
+}
+
+.form_A .progress_text,
+.form_B .progress_text,
+.form_C .progress_text,
+.form_D .progress_text{
+    width: 54.5%;
+    margin: auto;
+    margin-top: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_A .progress_text p,
+.form_B .progress_text p,
+.form_C .progress_text p,
+.form_D .progress_text p{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.31;
+    margin-right: -6rem;
+}
+
+.form_A .progress_text p:first-child,
+.form_B .progress_text p:first-child,
+.form_C .progress_text p:first-child,
+.form_D .progress_text p:first-child{
+    color: #FF515E;
+    margin-left: -3rem;
+}
+
+.form_A .content_area{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6.6rem;
+}
+
+.form_A .col_1{
+    max-width: 27%;
+    padding: 0 1.5rem;
+}
+
+.form_A .col_2{
+    min-width: 38.7%;
+    padding: 0 1.5rem;
+}
+
+.form_A .col_3{
+    max-width: 29%;
+    padding: 0 1.5rem;
+}
+
+.form_A .icon_boxs{
+    width: auto;
+    padding: 2rem 2.2rem 0 2.2rem;
+    border: .1rem solid #A7A8B5;
+    border-radius: 1.8rem;
+}
+
+.form_A .icon_boxs .icon_box{
+    background: rgba(173, 176, 194, 0.2);
+    padding: 2.5rem;
+    border-radius: 1.8rem;
+    display: flex;
+    align-items: start;
+    margin-bottom: 2rem;
+}
+
+.form_A .icon_boxs .icon_box.link{
+    justify-content: center;
+}
+
+.form_A .icon_box a{
+    display: inline-flex;
+    align-items: center;
+    color: #000000;
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.form_A .icon_box.link img{
+    padding-left: 3rem;
+}
+
+.form_A .icon_box img{
+    width: 4rem;
+    flex-shrink: 0;
+    margin-right: 1.5rem;
+}
+
+.form_A .icon_box h4{
+    color: #252849;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.08;
+    padding-bottom: .4rem;
+}
+
+.form_A .icon_box p{
+    color: rgba(37, 40, 73, 0.5);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.form_A .form_div{
+    background: #FF515E;
+    border-radius:1.8rem;
+    padding: 2.4rem 1.8rem;
+    flex-shrink: 0;
+}
+
+.form_A .form_group{
+    background: #fff;
+}
+
+.form_A .dateAndSelect,
+.form_A .zip_code{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.form_A .dateAndSelect .form_group.date,
+.form_A .zip_code .form_group.form_zip{
+    margin-right: 1.7rem;
+}
+
+.form_A .zip_code .form_group input{
+    border-bottom: .2rem solid #252849;
+}
+
+.form_A .zip_code .to_zip{
+    display: flex;
+}
+
+.form_A .zip_code .to_zip img {
+    flex-shrink: 0;
+    margin-top: .5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.form_A form .btns{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.form_A form .btns .btn{
+    width: 48%;
+}
+
+.form_A form .btns .btn.calculate{
+    background: #000000;
+    color: #fff;
+}
+
+.form_A form .btns .btn.clear{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+/* form B CSS --------------*/
+
+.form_B .content_area{
+    padding-top: 6rem;
+}
+
+.form_B .col_1{
+    max-width: 28%;
+    padding: 0 1.5rem;
+}
+
+.form_B .col_2{
+    max-width: 23.7%;
+    padding: 0 1.5rem;
+}
+
+.form_B .col_3{
+    max-width: 43.5%;
+    padding: 0 1.5rem;
+}
+
+.form_B .award_boxs{
+    max-width: auto;
+    background: #FF515E;
+    padding: 2rem 2.2rem .5rem;
+    border-radius: 1.8rem;
+    overflow: hidden;
+}
+
+.form_B .award{
+    text-align: center;
+    background: #fff;
+    border-radius: 1.8rem;
+    padding: 5rem;
+    margin-bottom: 2rem;
+}
+
+.form_B .award img{
+    width: auto;
+    margin-bottom: 2.5rem;
+}
+
+.form_B .award p{
+    color: #252849;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.form_B .awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form_B .awards .award{
+    width: 100%;
+    padding: 3.4rem 4rem;
+}
+
+.form_B .awards .award.left{
+    margin-right: 2rem;
+}
+
+.form_B .awards .award img{
+    width: 100%;
+    margin: auto;
+}
+
+.form_B .customer_info {
+    border: .1rem solid rgba(167, 168, 181, 0.6);
+    border-radius: 1.8rem;
+    padding: 2rem 1.8rem;
+}
+
+.form_B .customer_info .title_box,
+.form_B .moving .title_box{
+    background: #000;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 1.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.form_B .customer_info .title_box h3,
+.form_B .moving .title_box h3{
+    font-size: 2.8rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.form_B .customer_info input,
+.form_B .customer_info select,
+.form_B .moving input{
+    padding: 1.8rem 2rem;
+    border: .1rem solid #A7A8B5;
+    border-radius: 1.2rem;
+    margin-bottom: 1.3rem;
+}
+
+.form_B .customer_info .inputs{
+    padding-right: 4.5rem;
+}
+
+.form_B .moving .inputs{
+    padding-right: 4.5rem;
+}
+
+.form_B .customer_info select{
+    width: 100%;
+}
+
+.form_B .customer_info input::placeholder,
+.form_B .moving input::placeholder{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgba(37, 40, 73, 0.5);
+}
+
+.form_B .moveToFrom{
+    border: .1rem solid rgba(167, 168, 181, 0.6);
+    border-radius: 1.8rem;
+    padding: 2rem 1.8rem;
+}
+
+.form_B .moving{
+    display: flex;
+    flex-flow: row;
+}
+
+.form_B .moving .right_side{
+    margin-left: 1.8rem;
+    padding-bottom: 0;
+}
+
+.form_B .moveToFrom .btn.back{
+    margin-top: 9rem;
+    color: #FF515E;
+    border-color: #FF515E;
+    background: transparent;
+}
+
+.form_B .moving input.placholr_clr::placeholder{
+    color: #FF515E;
+}
+
+/* form C CSS --------------*/
+
+.form_C .col_1{
+    max-width: 27.7%;
+    padding: 0 1.5rem;
+}
+
+.form_C .col_2{
+    width: 635px;
+    padding: 0 1.5rem;
+}
+
+.form_C .col_3{
+    max-width: 29%;
+    padding: 0 1.5rem;
+}
+
+.form_C .content_area{
+    padding-top: 6rem;
+}
+
+.form_C .content_area .map{
+    padding: 2rem 2.2rem;
+    border: .1rem solid rgba(167, 168, 181, 0.6);
+    border-radius: 1.8rem;
+}
+
+.form_C .content_area .map img{
+    width: 100%;
+    margin-bottom: 3.9em;
+}
+
+.form_C .content_area .map .box{
+    padding: 2rem;
+    margin-bottom: 1.3rem;
+    background: rgba(173, 176, 194, 0.2);
+    border-radius: 1.2rem;
+}
+
+.form_C .content_area .map .box p{
+    color: #252849;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.form_C .content_area .map .box p span{
+    color: #FF515E;
+}
+
+.form_C .info{
+    background: #FF515E;
+    border-radius: 1.8rem;
+    padding: 1.8rem;
+}
+
+
+.form_C .info .wrap_1,
+.form_C .info .wrap_2{
+    background: #fff;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form_C .info .wrap_1{
+    margin-bottom: 2.7rem;
+    padding: 2.2rem 0 .3rem;
+}
+
+.form_C .info .wrap_2{
+    padding: 2rem 0 .2rem;
+}
+
+.form_C .info .left_side{
+    padding-right: 1.4rem;
+}
+
+.form_C .info .left_side p{
+    font-size: 2.2rem;
+    color: rgba(37, 40, 73, 0.5);
+    line-height: 1.13;
+    text-align: right;
+    padding: .9rem 0;
+}
+
+.form_C .info .right_side p{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.13;
+    padding: .9rem 0;
+}
+
+.form_C .info .wrap_2 p{
+    padding-bottom: 2.8rem;
+}
+
+.form_C .info .right_side p img{
+    max-width: 2rem;
+    padding-left: 1.4rem;
+}
+
+.form_C .info .right_side p span{
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: line-through;
+}
+
+.form_C .info .btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.7rem;
+}
+
+.form_C .info .btns .btn{
+    width: 48%;
+    padding: 2.1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid #fff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-radius: .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.form_C .info .btns .btn.Go_to_Confirmation{
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.form_C .quote{
+    padding: 2rem 2.2rem;
+    border: .1rem solid rgba(167, 168, 181, 0.6);
+    border-radius: 1.8rem;
+}
+
+.form_C .quote .wrap_1, .form_C .quote .wrap_2 {
+    background: rgba(173, 176, 194, 0.2);
+    padding: 1.9rem 1.5rem;
+    border-radius: 1.8rem;
+}
+
+.form_C .quote .wrap_1{
+    margin-bottom: 1.9rem;
+}
+
+.form_C .quote h5{
+    color: #252849;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.18;
+    padding-bottom: .9rem;
+}
+
+.form_C .quote p{
+    color: rgba(37, 40, 73, 0.5);
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 1.26;
+    padding-bottom: .9rem;
+}
+
+.form_C .quote p span{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+/* form D CSS --------------*/
+.form_D .content_area{
+    padding-top: 6rem;
+}
+
+.form_D .col_1{
+    width: 472px;
+    padding: 0 1.5rem;
+}
+
+.form_D .col_2{
+    width: auto;
+    padding: 0 1.5rem;
+}
+
+.form_D .congrats{
+    background: #FF515E;
+    padding: 2rem 2.2rem;
+    text-align: center;
+    border-radius: 1.8rem;
+}
+
+.form_D .congrats .box{
+    background: #fff;
+    border-radius: 1.8rem;
+    padding: 16rem 0;
+}
+
+.form_D .congrats img{
+    padding-bottom: 2.1rem;
+}
+
+.form_D .congrats h4{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #252849;
+    line-height: 1.33;
+    padding-bottom: 3.4rem;
+}
+
+.form_D .congrats .btn{
+    width: 63.5%;
+    padding: 2.1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid transparent;
+    outline: none;
+    background: #FF515E;
+    color: #fff;
+    border-radius: .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+}
+.form_D .congrats_content{
+    padding: 1.9rem 2.3rem 0;
+    border: .1rem solid rgba(167, 168, 181, 0.6);
+    border-radius: 1.8rem;
+}
+
+.form_D .congrats_content .icon_box{
+    display: flex;
+    background: rgba(173, 176, 194, 0.2);
+    border-radius: 1.8rem;
+    padding: 3.7rem 3rem 5.4rem 3rem;
+    margin-bottom: 2.8rem;
+}
+
+.form_D .congrats_content .icon_box img{
+    flex-shrink: 0;
+    width: 4.3rem;
+    height: 4.3rem;
+    padding-right: 1.3rem;
+}
+
+.form_D .congrats_content .icon_box h5{
+    font-size: 2.8rem;
+    color: #252849;
+    font-weight: 600;
+    line-height: 0.9;
+    padding-bottom: .8rem;
+}
+
+.form_D .congrats_content .icon_box p{
+    color: rgba(37, 40, 73, 0.5);
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.form_D .congrats_content .box{
+    background: rgba(173, 176, 194, 0.2);
+    border-radius: 1.8rem;
+    padding: 2.5rem 1.5rem;
+    margin-bottom: 2.8rem;
+}
+
+.form_D .congrats_content .box p{
+    font-size: 2.1rem;
+    color: rgba(37, 40, 73, 0.5);
+}
+
+.form_D .congrats_content .box.note{
+    margin-top: 19.5rem;
+    background: rgba(255, 81, 94, 0.1);
+}
+
+.form_D .congrats_content .box.note p{
+    color: #FF515E;
+}
+
+
+//
+.title-box{
+    text-align: center;
+    padding-bottom: 2.3rem;
+    &__title {
+        color: #000000;
+        font-size: 2.4rem;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.45;
+        &--accent {
+            color: #FF515E;
+        }
+        &--bold {
+            font-weight: 700;
+        }
+    }
+    &__link {
+        /*color: #FF515E;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.8rem;
+        font-weight: 700;
+        text-decoration: none;*/
+    }
+}
+
+.f-title-box{
+    text-align: center;
+    padding: 0 2rem;
+    &__title {
+        color: #000000;
+        font-size: 6.2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        line-height: 1.19;
+        padding-bottom: 1.9rem;
+    }
+    &__description {
+        color: #000000;
+        font-size: 3.8rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        line-height: 1.94;
+        &--accent {
+            color: #FF515E;
+        }
+    }
+}
+
+.form-field-two{
+    display: flex;
+    justify-content: space-between;
+    > * {
+        width: 39%;
+    }
+}
+
+
+
+.f-title1{
+    color: #000000;
+    font-size: 6.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.19;
+    padding-bottom: 1.9rem;
+}
+
+
+.title1{
+    color: #000000;
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    padding-bottom: 2.1rem;
+}
+
+.title2 {
+    color: #000000;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    padding-bottom: 4.2rem;
+}
+
+.title-link {
+    display: inline-block;
+    color: #FF515E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.form-area {
+    background: #fff;
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 460px;
+    padding: 26px 20px;
+    width: 100%;
+
+}
+
+.success-screen {
+    text-align: center;
+    &__link {
+        padding-bottom:0;
+    }
+    &__txt {
+        padding-bottom: 20px;
+    }
+}
+
+.success-img {
+    width: 20.1%;
+    margin-top: 6.1rem;
+    margin-bottom: 2.8rem;
+}
+
+.form-txt {
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 3.4rem;
+}
+
+
+
+.form-inputs {
+    &__item {
+        padding: 1.8rem 2rem;
+        border: 0.1rem solid #A7A8B5;
+        border-radius: 1.2rem;
+        width: 100%;
+        outline: none;
+        color: #252849;
+        background: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.18;
+        + .form-inputs__item {
+            margin-top: 1.3rem;
+        }
+        &--error {
+            border-color: #FF515E;
+        }
+        &::placeholder {
+            color: #252849;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        &:disabled {
+            background: #eee;
+        }
+    }
+}
+
+.h100 {
+    height: 100%;
+}
+
+.input-simple {
+    background: #fff;
+    border: none;
+    color: #252849!important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    outline: none;
+    width: 100%;
+    height: 20px;
+    ::placeholder {
+        opacity: 1;
+        color: #252849!important;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.v-select.input-simple, .v-select.form-inputs__item {
+    .vs__search {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #252849;
+        &::placeholder {
+            color: #252849!important;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .vs__selected-options, .vs__dropdown-toggle, .vs__selected {
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none;
+    }
+}
+
+.form-inputs__item--error {
+    animation: field-shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: none;
+}
+
+
+@keyframes field-shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
