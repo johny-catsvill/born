@@ -214,49 +214,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-1" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">How much do movers cost in Boston?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        Moving price depends on how busy is time of your move. In
-                                        Boston most busiest time is when studends come and leave the city. The
-                                        average cost of 2 movers crew and a truck is $119 an hour. It includes all
-                                        other charges, no hidden fees.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-2" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">How do i find the best moving company?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        To find the best moving company you need to read their
-                                        reviews on sources like Yelp and Thumbtack. After that make sure this
-                                        company has all required licenses and then get a moving quote from few
-                                        companiess to compare prices.
-                                        Born to move is fully licensed and insured and have most competitive rates
-                                        for moving in Boston.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-3" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">Do moving companies pack your stuff?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        Packing is always and additional services and not included in
-                                        the usual rate. Go to <a href="/packing-solution">packing</a> page to learn
-                                        more about packing services with Born to Move Company.
-                                    </p>
-                                </div>
-                            </div>
+                            @include('blocks.faq')
                         </div>
                     </div>
                 </div>

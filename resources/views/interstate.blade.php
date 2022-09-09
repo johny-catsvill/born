@@ -653,42 +653,8 @@ Any type of job we can accomodate depending on a distance we can deliver items t
                 <div class="row">
                     <div class="col-md-12">
                         <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-1" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">How much does the average long-ditance move cost?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        Long Distance moving price depends on the distance you are moving.
-                                        For example moving from Boston to New York with Born to Move movers is $1200 for a small move.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-2" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">What is included in the rate?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        Born to Move moving company provides a flat rate for your long-distance move.
-                                        We include all the charges into the flat rate.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-3" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">Should i hire movers to do packing for a Long Distance move?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        Moving Long Distance requires extra care when packing your items into the boxes that's why
-                                        hiring a moving company to <a href="/packing-solution">pack</a> your belongnings is always a great idea.
-                                    </p>
-                                </div>
-                            </div>
+                            @include('blocks.faq')
+
                         </div>
                     </div>
                 </div>

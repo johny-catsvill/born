@@ -166,39 +166,7 @@ one month away.
             <div class="row">
                 <div class="col-md-12">
                     <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-1" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Why i need parking permit?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Parking permit is required to avoid any parking tickets we can get. In case you don not provide parking permit all the tickets we get will be paid by you.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-2" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">What is the cost of hositing services?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Hoisting services rate depends on how heavy items and what floor we have to lift it. Contact us to learn more.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-3" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Were can i get a parking permit?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    You can obtain parking permit on the official website of city where you move. Make sure to apply early for your parking permit.
-                                </p>
-                            </div>
-                        </div>
+                        @include('blocks.faq')
                     </div>
                 </div>
             </div>

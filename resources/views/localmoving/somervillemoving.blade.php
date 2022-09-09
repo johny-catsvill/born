@@ -328,39 +328,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-1" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">What is included in the Rate for moving in Somerville?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Our Rates for moving in Somerville includes all other charges such as tolls, gas, labor, wrapping materials and more.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-2" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Do you provide packing for Moving in Somerville MA?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Yes, we do provide packing as an additional service.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-3" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Are you licensed and insured?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Born to Move Moving company is fully licensed and insured to provide all types of moving services in Somerville MA.
-                                </p>
-                            </div>
-                        </div>
+                        @include('blocks.faq')
                     </div>
                     <br/>
                     <a style="float:right;" href="/faq">View all</a>

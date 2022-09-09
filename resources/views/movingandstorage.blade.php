@@ -178,39 +178,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-1" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">Will a moving company move furniture to a storage unit?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        We always can help move your belongings into your storage unit.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-2" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">How do you charge for Storage?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        We charge monthly for storage depending on the size of your move.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                <button id="accordion-button-3" aria-expanded="false">
-                                    <span class="accordion-title" itemprop="name">Do you provide overnight storage?</span>
-                                    <span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                            itemtype="https://schema.org/Answer">
-                                    <p itemprop="text">
-                                        Yes, we do provide overnight storage. Contact us to learn more.
-                                    </p>
-                                </div>
-                            </div>
+                            @include('blocks.faq')
                         </div>
                     </div>
                 </div>

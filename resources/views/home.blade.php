@@ -659,47 +659,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                        <div class="accordion-item" itemscope itemprop="mainEntity"
-                             itemtype="https://schema.org/Question">
-                            <button id="accordion-button-1" aria-expanded="false">
-                                <span class="accordion-title"
-                                      itemprop="name">How much do moving service cost in Boston?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                 itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Price for Moving in Boston depends on the season time, starting $110/h for 2 movers
-                                    and a truck for out of season time.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity"
-                             itemtype="https://schema.org/Question">
-                            <button id="accordion-button-2" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Can two men and a truck move safes?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                 itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Depending on your size, professional Born to Move Moving Company will provide you
-                                    with enough movers to make it safe.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity"
-                             itemtype="https://schema.org/Question">
-                            <button id="accordion-button-3" aria-expanded="false">
-                                <span class="accordion-title"
-                                      itemprop="name">Where to get moving boxes in Boston?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                 itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Born to Move Boston Moving Company will provide you with boxes. Find more info on <a
-                                        href="{{ url('packing-solution') }}">packing</a> page.
-                                </p>
-                            </div>
-                        </div>
+                        @include('blocks.faq')
+
                     </div>
                 </div>
             </div>

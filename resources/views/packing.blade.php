@@ -763,39 +763,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-1" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">How much does does it cost to pack and move?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Packing and moving usually must be done in separate days to make sure your move goes smoothly. Born to Move charges the same rate for packing and moving.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-2" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">What are Box packages?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    We estimate the amount of boxes and other packing materials required for yuor move and sell them as a package.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-3" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Do you rent boxes?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    We do not rent boxes for your packing.
-                                </p>
-                            </div>
-                        </div>
+                        @include('blocks.faq')
                     </div>
                 </div>
             </div>

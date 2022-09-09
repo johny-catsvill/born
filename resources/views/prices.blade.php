@@ -160,39 +160,7 @@
                         <div class="row">
                             <div class="col-md-12">
                             <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                                    <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                        <button id="accordion-button-1" aria-expanded="false">
-                                        <span class="accordion-title" itemprop="name">How much Movers cost from Boston to NYC?</span>
-                                        <span class="icon" aria-hidden="true"></span></button>
-                                        <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                                    itemtype="https://schema.org/Answer">
-                                        <p itemprop="text">
-                                                It depends on the amount of stuff that you are moving our rates starts at 1150$ if you are moving room or less from Boston to NYC
-                                        </p>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                        <button id="accordion-button-2" aria-expanded="false">
-                                        <span class="accordion-title" itemprop="name">Do we charge Additionally for stairs?</span>
-                                        <span class="icon" aria-hidden="true"></span></button>
-                                        <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                                    itemtype="https://schema.org/Answer">
-                                        <p itemprop="text">
-                                                No we don't charge for packing supplies such as tape and shrink wrap.However, we do charge for boxes
-                                        </p>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                        <button id="accordion-button-3" aria-expanded="false">
-                                        <span class="accordion-title" itemprop="name">How much travel time cost?</span>
-                                        <span class="icon" aria-hidden="true"></span></button>
-                                        <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                                    itemtype="https://schema.org/Answer">
-                                        <p itemprop="text">
-                                                Travel time cost based on hourly rate.
-                                        </p>
-                                        </div>
-                                    </div>
+                                @include('blocks.faq')
                             </div>
                             </div>
                         </div>

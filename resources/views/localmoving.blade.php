@@ -157,40 +157,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-1" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">How much does does a Local Move cost?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Local Moving in Boston cost depends on many factors such as the size of the move, the number of movers and others. Our minimum cost for 2 men crew is $120/h that includes all other charges.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-2" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">What does moving locally mean?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Moving locally is considered any move that is under 50 miles.
-                                    Hiring local movers is always a great way to save on your move.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-3" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Are licensed and insured?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Born to Move Moving company is fully licensed and insured to provide all types of moving services in Boston area.
-                                </p>
-                            </div>
-                        </div>
+
+                        @include('blocks.faq')
                     </div>
                 </div>
             </div>

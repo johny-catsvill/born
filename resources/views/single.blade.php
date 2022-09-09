@@ -337,81 +337,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="accordion" itemscope itemtype="https://schema.org/FAQPage">
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-1" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">What's included in the rate
-                                        @if($page->categoryId->parentId->name == 'Local Moving')
-                                        for {{ $page->distance }} Moving
-                                        @else
-                                        for moving from {{ $page->categoryId->name }}
-                                        @endif</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    @if($page->categoryId->parentId->name == 'Local Moving')
-                                    Our hourly rates for moving in {{ $page->distance }} inlcude all other charges. No hidden fees.
-                                    @else
-                                    Our flat rate for moving from {{ $page->categoryId->name }} includes all other charges. No hidden fees.
-                                    @endif
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-2" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Are you guys fully licensed and insured?</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Yes, Born to Move Moving Company is fully licensed and Insured
-                                    @if($page->categoryId->parentId->name == 'Local Moving')
-                                    for {{ $page->distance }} Moving
-                                    @else
-                                    for moving from {{ $page->categoryId->name }}
-                                    @endif
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-3" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Parking</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Customers responsible for truck parking
-                                    @if($page->categoryId->parentId->name == 'Local Moving')
-                                        in {{ $page->distance }}
-                                        @else
-                                        in {{ $page->categoryId->name }}
-                                        @endif
-                                        or any parking tickets.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                            <button id="accordion-button-4" aria-expanded="false">
-                                <span class="accordion-title" itemprop="name">Can i ride in the truck
-                                        @if($page->categoryId->parentId->name == 'Local Moving')
-                                        in {{ $page->distance }}
-                                        @else
-                                        from {{ $page->categoryId->name }}
-                                        @endif</span>
-                                <span class="icon" aria-hidden="true"></span></button>
-                            <div class="accordion-content" itemscope itemprop="acceptedAnswer"
-                                        itemtype="https://schema.org/Answer">
-                                <p itemprop="text">
-                                    Unfortunately you can not be in the truck while we transport your items
-                                    @if($page->categoryId->parentId->name == 'Local Moving')
-                                        in {{ $page->distance }}
-                                        @else
-                                        from {{ $page->categoryId->name }}
-                                        @endif
-                                    ,because of the certain department of transportation regulations.
-                                </p>
-                            </div>
-                        </div>
+                        @include('blocks.faq')
+
                     </div>
                 </div>
             </div>
